@@ -1,0 +1,29 @@
+{
+    "name": "mahmood_morid_sadat/laravel-livewire-modals",
+    "homepage": "https://github.com/mahmood_morid_sadat/laravel-livewire-modals",
+    "description": "Dynamic Laravel Livewire Bootstrap modals.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Raghebi",
+            "email": "aliraghebiii@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^9.0|^10.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahmoodMoridSadat\\LaravelLivewireModals\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MahmoodMoridSadat\\LaravelLivewireModals\\Providers\\LaravelLivewireModalsProvider"
+            ]
+        }
+    }
+}
